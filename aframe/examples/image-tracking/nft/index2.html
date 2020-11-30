@@ -48,10 +48,15 @@
                 gltf-model='https://maxdepeuf.github.io/ARlab2/aframe/examples/image-tracking/nft/trex/pvt2.glb'
                 scale="-150 150 -150"
                 position="150 0 -100"
-				material="side: double"
-                >
+			>
             </a-entity>
-			<a-entity geometry="primitive: plane; height: 100; width: 100" material="side: double"></a-entity>
+			<a-entity
+			geometry="primitive: plane; height: 100; width: 100" 
+			material="side: double"
+			rotation="0 90 0"
+			position="0 0 0"
+			>
+			</a-entity>
         </a-nft>
 		<a-entity camera></a-entity>
     </a-scene>
